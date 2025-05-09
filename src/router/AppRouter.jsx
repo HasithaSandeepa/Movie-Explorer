@@ -12,7 +12,7 @@ import Upcoming from "../pages/Upcoming";
 const AppRouter = () => (
   <Routes>
     <Route path="/" element={<Login />} />
-    <Route path="/home" element={<Home />} />
+    <Route path="//home" element={<Home />} />
     <Route path="/movie/:id" element={<Details />} />
     <Route path="/favorites" element={<Favorites />} />
     <Route path="/top-rated" element={<TopRated />} />

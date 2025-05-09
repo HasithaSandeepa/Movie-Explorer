@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
 
     if (username === "user" && password === "User123@") {
-      navigate("/");
+      navigate("/home");
     } else {
       setError("Invalid username or password");
     }

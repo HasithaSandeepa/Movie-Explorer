@@ -61,7 +61,7 @@ const Header = ({ themeMode, toggleTheme }) => {
           <Typography
             variant="h6"
             component="div"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/home")}
             sx={{
               cursor: "pointer",
               backgroundColor: "#F6C800",

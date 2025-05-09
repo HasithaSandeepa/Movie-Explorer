@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
-const BASE_URL = "https://api.themoviedb.org/3";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const fetchTrending = (page = 1) =>
   axios.get(`${BASE_URL}/trending/movie/day`, {
