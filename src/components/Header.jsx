@@ -77,7 +77,7 @@ const Header = ({ themeMode, toggleTheme }) => {
           </Typography>
 
           <NavLink
-            to="/"
+            to="/home"
             style={({ isActive }) => ({
               ...linkStyle,
               ...(isActive ? activeStyle : {}),

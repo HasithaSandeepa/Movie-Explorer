@@ -11,10 +11,10 @@ import Upcoming from "../pages/Upcoming";
 // AppRouter component to handle routing
 const AppRouter = () => (
   <Routes>
-    <Route path="/" element={<Home />} />
+    <Route path="/" element={<Login />} />
+    <Route path="/home" element={<Home />} />
     <Route path="/movie/:id" element={<Details />} />
     <Route path="/favorites" element={<Favorites />} />
-    <Route path="/login" element={<Login />} />
     <Route path="/top-rated" element={<TopRated />} />
     <Route path="/upcoming" element={<Upcoming />} />
   </Routes>
