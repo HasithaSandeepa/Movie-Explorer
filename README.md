@@ -6,8 +6,13 @@ Movie Explorer is a React + Vite-powered web application that allows users to di
 
 ## 🚀 Live Demo
 
-[Click here to view the deployed app](#) _(Add your deployed URL here)_
+[Click here to view the deployed app](https://movie-explorer-g4t8.vercel.app/)
 
+```bash
+Username - user
+
+Password -User123@
+```
 ---
 
 ## 📦 Tech Stack
